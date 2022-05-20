@@ -7,6 +7,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
+        android:id="@+id/pictureImg"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@mipmap/ic_launcher"/>
@@ -15,14 +16,17 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="5dp"
+        android:paddingStart="15dp"
         >
+
         <TextView
             android:id="@+id/PriceTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Price"
             android:textColor="#ffa509"
-            android:textSize="20sp"
-            android:text="Price"/>
+            android:textSize="20sp" />
+
         <TextView
             android:id="@+id/LevelTxt"
             android:layout_width="wrap_content"
@@ -35,6 +39,8 @@
 
     <TextView
         android:id="@+id/descriptiontxt"
+        android:layout_marginStart="15dp"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="description"/>

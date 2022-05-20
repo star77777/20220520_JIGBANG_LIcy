@@ -7,14 +7,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-<view class="androidx.appcompat.app.AlertController$RecycleListView"
-    android:id="@+id/name"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
 
-</view>
-
-
-
-
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/main"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     />
 </LinearLayout>
